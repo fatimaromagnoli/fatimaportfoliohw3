@@ -36,6 +36,13 @@ height: 100vh;
 }
 }
 
+#introhi{ position:center;
+          padding-top: 10%;
+          padding-bottom: 3%;
+          
+
+
+}
 .top-nav-collapse {
 background-color: #78909c !important;
 }
@@ -72,16 +79,17 @@ border-top: 3px solid #fff;
 width: 80px;
 }
 
-main{ 
+main{ height: 100vh;
 padding-top: 15%; 
 padding-bottom: 15%;
 padding-left: 10%;
 padding-right: 10%;
-background-blend-mode: lighten;
+/* background-size: 100vh;  */
 background-image: url(./images/black-and-white\ background.jpg);
-font-family: 'Special Elite', cursive;;
+background-size: 1262px;
+font-family: 'Special Elite', cursive;
 /* font-family: 'Crimson Pro', serif; */ 
-font-size: 60px;
+font-size: 65px;
 
 /* font-family:Georgia, 'Times New Roman', Times, serif; */
 /* font-size: 80px; */
@@ -147,11 +155,11 @@ max-width: 100%;
 
 .col-xl-5{padding-bottom: 5%;
            padding-top: 5%;
-           width: 100%;
+           width: 80%;
            background-image: url(./images/b&ycompsmall.jpg);
-           background-image size: width: 50px;
+           background-image size= width: 50px;
            border-color: black;
-           align-content: center;       }
+           align-content= center;       }
 
 #about { padding-top: 5%;
         padding-bottom: 5%;
